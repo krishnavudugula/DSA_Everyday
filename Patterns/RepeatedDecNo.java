@@ -7,7 +7,6 @@ public class RepeatedDecNo {
                 System.out.print(count + " ");
                 
             }
-            count++;
             System.out.println();
         }
     }
