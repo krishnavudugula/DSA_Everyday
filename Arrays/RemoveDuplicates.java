@@ -1,5 +1,5 @@
 import java.util.*;
-
+//works only for sorted duplicate array (asc or des)!!!
 public class RemoveDuplicates {
 
     public static int removeDuplicate(int[] nums) {
