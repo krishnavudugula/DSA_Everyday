@@ -6,7 +6,9 @@ public class RemoveDuplicates {
 
         // 1,1,1,2,2,3,4,4,5,6
         // 1,2,3,4,5,6
-
+        if(nums.length == 0){ 
+            return 0;               //if array is empty return 0
+        }
         int k = 1;
 
         for(int j = 1; j < nums.length; j++) {
