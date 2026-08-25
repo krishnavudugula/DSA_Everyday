@@ -12,7 +12,8 @@ public class RotateArray {
             nums[left] = nums[right];
             nums[right] = temp;
             left++;
-            right--;            
+            right--;      
+                  
         }
     }
 }
