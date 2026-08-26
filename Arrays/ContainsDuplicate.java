@@ -7,7 +7,7 @@ public class ContainsDuplicate {
         //     if(nums[i] == nums[i+1]){
         //         return true;
         //     }
-        // }
+        // }    
         // return false;
         Set<Integer> set = new HashSet<>();
         for (int num : nums){
