@@ -24,11 +24,14 @@ public class Armstrong {
             arm_sum = arm_sum + (int) Math.pow(digit, count); //arm_sum = arm_sum + Math.pow(digit, count); doenst work.
             temp /= 10;
         } 
-        if (arm_sum == num) {
-            System.out.println("Armstrong Numer " + arm_sum);
-        }
-        else{
-            System.out.println("Not an Armstrong Number " + arm_sum);
-        }
+        // if (arm_sum == num) {
+        //     System.out.println("Armstrong Numer " + arm_sum);
+        // }
+        // else{
+        //     System.out.println("Not an Armstrong Number " + arm_sum);
+        // }
+        String result = (arm_sum == num) ? "Armstrong Numer" : "Not an Armstrong Number";
+
+        System.out.println(result);
     }
 }
