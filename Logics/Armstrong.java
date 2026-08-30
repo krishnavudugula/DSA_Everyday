@@ -31,7 +31,6 @@ public class Armstrong {
         //     System.out.println("Not an Armstrong Number " + arm_sum);
         // }
         String result = (arm_sum == num) ? "Armstrong Numer" : "Not an Armstrong Number";
-
         System.out.println(result);
     }
 }
