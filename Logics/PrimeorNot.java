@@ -8,7 +8,8 @@ class PrimeorNot {
         if(num<=1){
             System.out.println(num + " is Not a Prime Number.");
         } else {
-            for (int i =2; i<num; i++){
+            // for (int i =2; i<num; i++){
+            for(int i=2; i < Math.sqrt(num); i++){
                 if(num % i == 0){
                     isPrime = false;
                     break;
