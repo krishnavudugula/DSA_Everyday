@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Set;
-
+//36
 public class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
         Set <String> seen = new HashSet<>();
