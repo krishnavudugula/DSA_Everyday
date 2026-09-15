@@ -25,6 +25,19 @@ public class SortedSquares {
 
         return result;
     }
+
+//     class Solution {
+//     public int[] sortedSquares(int[] nums) {
+
+//         for (int i = 0; i < nums.length; i++) {
+//             nums[i] = nums[i] * nums[i];
+//         }
+
+//         Arrays.sort(nums);
+
+//         return nums;
+//     }
+// }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
