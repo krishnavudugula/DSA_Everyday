@@ -1,4 +1,5 @@
 import java.util.*;
+//42. Trapping Rain Water.
 public class TrappingRain {
     public static int trap(int[] height){
         int n = height.length;
