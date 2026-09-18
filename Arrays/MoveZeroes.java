@@ -14,10 +14,13 @@ public class MoveZeroes {
             }
         }
 
-        while (index < nums.length) {
+        // while (index < nums.length) {
 
-            nums[index] = 0;
-            index++;
+        //     nums[index] = 0;
+        //     index++;
+        // }
+        for(int i=index; i<nums.length; i++){
+            nums[i] = 0;
         }
     }
 
