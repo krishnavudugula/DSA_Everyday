@@ -26,6 +26,5 @@ public class MaxmSalesinK {
         }
         int k = sc.nextInt();
         System.out.println(maxSales(sales, k));
-
     }
 }
