@@ -114,6 +114,12 @@ class LinkedList {
         }
         System.out.println("null");
     }
+
+
+    public void add(int v) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
+    }
 }
 
 public class SLL {
